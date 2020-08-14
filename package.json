@@ -26,7 +26,6 @@
     "rxjs": "~6.5.5",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3",
-    "@angular-devkit/build-angular": "~0.1000.5",
     "typescript": "~3.9.5",
     "mongoose" : "^5.9.6"
   },
@@ -36,6 +35,7 @@
     "@types/jasminewd2": "~2.0.3",
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.5.0",
+    "@angular-devkit/build-angular": "~0.1000.5",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~5.0.0",
     "karma-chrome-launcher": "~3.1.0",

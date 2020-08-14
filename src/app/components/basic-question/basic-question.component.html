@@ -1,0 +1,31 @@
+<body>
+    <p>"Which pet should you buy?"</p>
+<h2>
+ {{ourQuestion.question}}
+</h2>
+
+<div class = "button">
+    <button (click)="getQuestionByNum(ourQuestion.yes)"> Yes</button>
+    <button (click)="getQuestionByNum(ourQuestion.no)"> No</button>
+    <p>Once you receive your answer, click "yes" or "no" to start again</p>
+    <br>
+    <br>
+
+    
+</div>
+<br>
+
+
+<br>
+
+<h3> Score Board: </h3> <div *ngFor="let item of ourQuestion.score"></div>
+
+
+add your name to the board: <input type="text" [formControl]="newScore">
+<button (click)="addScoreToQuestion(newScore.value)">Add</button>
+<br>
+Who else got this result:
+<li>{{ ourQuestion.score }}</li>
+
+
+</body>
